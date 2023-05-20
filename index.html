@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        DogsHaven
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="./utils/bootstrap.css" rel="stylesheet">
+    <link rel="Bookmark" type="image/x-icon" href="./img/dog_logo.ico" />
+    <link rel="icon" type="image/x-icon" href="./img/dog_logo.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/dog_logo.ico" />
+    <meta name="description" content="Dog Haven provides professional and loving dog daycare services in Sydney.">
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: column; min-height: 98.4vh;">
+        <!-- header  -->
+        <header class="p-3 border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center  mb-2 me-lg-3 mb-lg-0 link-body-emphasis text-decoration-none">
+                        <div
+                            style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                            <img src="./img/dog_logo.png" width="34"  alt="logo">
+                            <h1 style="font-size: small;">DogsHaven</h1>
+                        </div>
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="./index.html" class="nav-link px-2 link-secondary"><i
+                                    class="bi bi-house-heart-fill"></i> Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: black;" onMouseOver="this.style.color='#6c757d'"
+                                onMouseOut="this.style.color='#000'">
+                                <i class="bi bi-clipboard2-heart-fill"></i> Our services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./daycare.html">Make an appointment</a></li>
+                                <li><a class="dropdown-item" href="./specialsevice.html">Special sevice</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./training.html">Pet training</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./aboutus.html" class="nav-link px-2 link-body-emphasis"><i
+                                    class="bi bi-person-heart"></i> About
+                                us</a></li>
+                        <li><a href="./contactus.html" class="nav-link px-2 link-body-emphasis"><i
+                                    class="bi bi-phone-fill"></i> Contact
+                                us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: black;" onMouseOver="this.style.color='#6c757d'"
+                                onMouseOut="this.style.color='#000'">
+                                <i class="bi bi-grid-fill"></i> More
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./faqs.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="./privacyAndPolicy.html">Privacy & Policy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <!-- before login -->
+                    <div class="text-end">
+                        <a href="./login.html" type="button" class="btn  me-2">Login</a>
+                        <a href="./signup.html" type="button" class="btn btn-outline-primary">Sign-up</a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- main  -->
+        <main style="flex: 1;">
+
+            <!-- banner -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="12000" style="background-color: #000;">
+                        <!-- https://www.pexels.com/video/veterinarian-making-medical-assessment-to-the-dog-with-volunteers-7469675/ -->
+                        <!-- https://www.pexels.com/photo/woman-wearing-gray-jacket-beside-white-puppy-1174081/ -->
+
+                        <video autoplay loop style="max-height: 40rem;  
+                        object-fit: contain;
+                        width: 100%;
+                        height: 100%;" controls>
+                            <source src="./img/home/banner/banner1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Our Story</h5>
+                            <p>Please double-click to zoom up the video.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./img/home/banner/banner1.jpeg" class="d-block w-100" alt="..."
+                            style="max-height: 40rem; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Our Duty</h5>
+                            <p>Beyond pet care, we passionately nurture your furry friend's happiness.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./img/home/banner/banner2.jpeg" class="d-block w-100" alt="..."
+                            style="max-height: 40rem; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Our activities</h5>
+                            <p>Beyond pet care, we offer more.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- second row -->
+
+            <div class="container marketing" style="margin-top: 6rem;">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4"
+                        style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+                        <img src="./img/home/layer2/img1.jpeg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                        </img>
+                        <h2 class="fw-normal" style="margin-top: 0.5rem;">Make Appointment</h2>
+                        <p tyle="text-align: center;">At Dog Haven, we offer a safe and stimulating environment for your
+                            furry
+                            friend. Our dedicated team is ready to provide your dog with a tail-wagging experience
+                            they'll love!</p>
+                        <p><a class="btn btn-secondary" href="./daycare.html">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4"
+                        style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+                        <img src="./img/home/layer2/img3.jpeg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                        </img>
+                        <h2 class="fw-normal" style="margin-top: 0.5rem;">Special Sevice</h2>
+                        <p style="text-align: center;">Elevate your dog's experience with our range of exciting
+                            add-ons, including
+                            personalized grooming, luxurious spa treatments, interactive puzzle toys, and individual
+                            playtime.</p>
+                        <p><a class="btn btn-secondary" href="./specialsevice.html">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4"
+                        style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+                        <img src="./img/home/layer2/img2.jpeg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                        </img>
+                        <h2 class="fw-normal" style="margin-top: 0.5rem;">Pet Training</h2>
+                        <p tyle="text-align: center;">Our experienced trainers utilize positive reinforcement techniques
+                            to teach
+                            essential obedience commands, address behavior challenges, and strengthen the bond between
+                            you and your furry companion.</p>
+                        <p><a class="btn btn-secondary" href="./training.html">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+                <!-- START THE FEATURETTES -->
+                <hr class="featurette-divider" style="margin-top: 6rem;">
+                <div class="row featurette">
+                    <div class="col-md-7" style="display: flex;justify-content: center;flex-direction: column;">
+                        <h2 class="featurette-heading fw-normal lh-1" style="text-align: center;">Gallery Space </h2>
+                        <p class="lead"> At Dog Haven, we offer a safe and stimulating environment for your furry
+                            friend. Our dedicated team is ready to provide your dog with a tail-wagging experience
+                            they'll love!
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                        </svg>
+                        <div id="extwaiokist" style="display:none" v="fekie" q="58394d37" c="581.5" i="590" u="5.326"
+                            s="05152315" sg="svr_04262315-ga_05152315-bai_undefined" d="1" w="false" e="" a="2" m="BMe="
+                            vn="unknown-fekie">
+                            <div id="extwaigglbit" style="display:none" v="fekie" q="58394d37" c="581.5" i="590"
+                                u="5.326" s="05152315" sg="svr_04262315-ga_05152315-bai_undefined" d="1" w="false" e=""
+                                a="2" m="BMe="></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2"
+                        style="display: flex;justify-content: center;flex-direction: column;">
+                        <h2 class="featurette-heading fw-normal lh-1" style="text-align: center;">Second featurette
+                            heading</h2>
+                        <p class="lead">AElevate your dog's experience with our range of exciting add-ons, including
+                            personalized grooming, luxurious spa treatments, interactive puzzle toys, and individual
+                            playtime. </p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7" style="display: flex;justify-content: center;flex-direction: column;">
+                        <h2 class="featurette-heading fw-normal lh-1" style="text-align: center;">Third featurette
+                            heading</h2>
+                        <p class="lead">Our experienced trainers utilize positive reinforcement techniques to teach
+                            essential obedience commands, address behavior challenges, and strengthen the bond between
+                            you and your furry companion. </p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+                <!-- /END THE FEATURETTES -->
+
+            </div>
+        </main>
+
+
+
+        <!-- footer  -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center  border-top"
+            style="padding-left: 2rem;padding-right: 2rem; margin-top: 1rem; padding-top: 0.5rem;">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 DogsHaven, Inc</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center  mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                    <img src="./img/dog_logo.png" width="34" alt="logo">
+                </div>
+            </a>
+
+
+
+            <ul class="nav  justify-content-end">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="./faqs.html" class=" nav-link px-2
+                        text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="./privacyAndPolicy.html"
+                        class="nav-link px-2 text-body-secondary">Privacy & Policy</a></li>
+                <li class="nav-item"><a href="tel:+123456789" class="nav-link px-2 text-body-secondary"><i
+                            class="bi bi-telephone-outbound-fill"></i></a></li>
+
+            </ul>
+        </footer>
+    </div>
+</body>
+
+
+<script src="./utils/bootstrap.bundle.js"></script> 
+
+</html>
