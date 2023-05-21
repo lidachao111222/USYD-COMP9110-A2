@@ -6,6 +6,14 @@ Deploy website:
 
 ---
 
+Important note: please use Chrome or Edge to open the website.
+
+
+**The entry file of the document is index.html.**
+
+
+---
+
 This project is built with  **HTML** and **CSS**
 
 Dependencies for this project:
